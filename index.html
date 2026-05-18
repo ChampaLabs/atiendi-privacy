@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — Atiendi</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Inter, -apple-system, sans-serif; margin: 0; color: #333; line-height: 1.7; }
+    header { background: linear-gradient(135deg, #075E40 0%, #0A4D35 100%); padding: 20px 40px; }
+    header a { font-size: 20px; font-weight: 700; color: white; text-decoration: none; }
+    main { max-width: 760px; margin: 0 auto; padding: 48px 32px; }
+    h1 { font-size: 32px; font-weight: 700; color: #075E40; border-bottom: 3px solid #25D366; padding-bottom: 12px; margin-bottom: 8px; }
+    h2 { font-size: 20px; font-weight: 600; color: #075E40; margin-top: 36px; margin-bottom: 10px; }
+    ul { padding-left: 20px; margin-top: 8px; margin-bottom: 8px; }
+    a { color: #25D366; font-weight: 500; }
+    .subtitle { color: #888; font-size: 14px; margin-bottom: 36px; }
+    footer { background: #0f1419; padding: 24px 40px; text-align: center; font-size: 13px; color: rgba(255,255,255,0.4); }
+  </style>
+</head>
+<body>
+  <header><a href="https://www.atiendi.com.ar">Atiendi</a></header>
+  <main>
+    <h1>Política de Privacidad</h1>
+    <p class="subtitle">Última actualización: abril 2026</p>
+    <p>ChampaLabs ("nosotros") opera Atiendi, una plataforma que integra WhatsApp Business con inteligencia artificial para ayudar a negocios a automatizar la atención al cliente.</p>
+
+    <h2>Información que recopilamos</h2>
+    <p>Procesamos únicamente los datos necesarios para brindar el servicio:</p>
+    <ul>
+      <li>Nombre y dirección de email (al registrarse mediante Google, Apple o email/contraseña)</li>
+      <li>Números de teléfono de WhatsApp de clientes que contactan al negocio</li>
+      <li>Contenido de mensajes enviados hacia o desde un negocio a través de nuestra plataforma</li>
+      <li>Metadatos de mensajes (fechas, estado de entrega)</li>
+      <li>Configuración del negocio (horarios, productos, instrucciones del bot)</li>
+      <li>Tokens de dispositivo para el envío de notificaciones push</li>
+    </ul>
+    <p>No recopilamos datos personales sensibles.</p>
+
+    <h2>Cómo usamos la información</h2>
+    <p>Los datos se utilizan exclusivamente para:</p>
+    <ul>
+      <li>Autenticar usuarios y mantener sesiones seguras (JWT)</li>
+      <li>Generar respuestas automáticas con IA en nombre del negocio</li>
+      <li>Mostrar el historial de conversaciones en el panel de control</li>
+      <li>Enviar notificaciones push sobre nuevos mensajes</li>
+      <li>Procesar pagos de suscripción y paquetes adicionales de respuestas</li>
+      <li>Mejorar la confiabilidad y calidad del servicio</li>
+    </ul>
+
+    <h2>Almacenamiento y seguridad</h2>
+    <ul>
+      <li>Los datos se almacenan en bases de datos PostgreSQL con acceso restringido</li>
+      <li>Las sesiones se gestionan con tokens JWT firmados con expiración de 30 días</li>
+      <li>Las contraseñas de acceso son gestionadas por Firebase Authentication y nunca se almacenan en texto plano</li>
+      <li>Aplicamos prácticas de seguridad estándar de la industria</li>
+    </ul>
+
+    <h2>Compartir datos</h2>
+    <ul>
+      <li>No vendemos ni compartimos datos personales con terceros</li>
+      <li>Los datos de mensajes se comparten con Meta (WhatsApp Business API) solo en la medida necesaria para operar el servicio</li>
+      <li>Usamos la API de OpenAI para generar respuestas automáticas — los mensajes se envían a OpenAI como parte del procesamiento</li>
+      <li>La autenticación utiliza Firebase Authentication (Google, Apple y email/contraseña)</li>
+      <li>Los pagos se procesan a través de Mercado Pago — los datos de pago son gestionados exclusivamente por Mercado Pago y no los almacenamos</li>
+      <li>Las notificaciones push se envían a través de Firebase Cloud Messaging (FCM)</li>
+    </ul>
+
+    <h2>Retención de datos</h2>
+    <p>Los datos se retienen mientras la cuenta esté activa o durante el tiempo necesario para cumplir con obligaciones legales. Al eliminar la cuenta, los datos se borran en un plazo razonable.</p>
+
+    <h2>Eliminación de datos</h2>
+    <p>Para solicitar la eliminación de tus datos, contactanos en:</p>
+    <p><a href="mailto:soporte@atiendi.com.ar">soporte@atiendi.com.ar</a></p>
+    <p>Procesaremos la solicitud en un plazo máximo de 30 días.</p>
+
+    <h2>Contacto</h2>
+    <p><strong>ChampaLabs</strong><br />Email: <a href="mailto:soporte@atiendi.com.ar">soporte@atiendi.com.ar</a></p>
+  </main>
+  <footer>© 2026 Atiendi — ChampaLabs</footer>
+</body>
+</html>
